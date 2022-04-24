@@ -1,0 +1,22 @@
+.body-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-text span:nth-of-type(1){
+  font: bold;
+  font-size: 60px;
+  margin-top: 7rem;
+  /* box-shadow: 1px 2px 4px 1px black; */
+  text-shadow: 0 0 3px #FF0000, 0 0 5px orange;
+}
+
+.body-text span:nth-of-type(2)
+{
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}

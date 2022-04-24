@@ -1,0 +1,55 @@
+.n-wrapper{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.n-left{
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+} 
+
+.n-name{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.n-name span:nth-child(1)
+{
+  margin-left: 5rem;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px orange;
+}
+
+.n-right{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.n-list{
+  flex: 10;
+}
+
+.n-list>ul{
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.n-list>ul>li:hover{
+  cursor: pointer;
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .n-list{
+    display: none;
+  }
+}

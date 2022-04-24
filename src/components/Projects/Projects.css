@@ -1,0 +1,15 @@
+.card-position{
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.Title{
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px orange;
+}
