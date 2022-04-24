@@ -5,6 +5,7 @@
   margin-bottom: 4rem;
   margin: 2rem;
   justify-content: center;
+  background: linear-gradient(45deg, rgb(156, 14, 156), lightblue);
 }
 
 .Title{
@@ -12,4 +13,6 @@
   margin-top: 2rem;
   font-weight: bold;
   text-shadow: 0 0 3px #FF0000, 0 0 5px orange;
+  margin-top: 8rem;
+  background: linear-gradient(45deg, rgb(156, 14, 156), lightblue);
 }

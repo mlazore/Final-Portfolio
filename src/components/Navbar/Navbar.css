@@ -2,6 +2,7 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(45deg, rgb(156, 14, 156), lightblue);
 }
 
 .n-left{
