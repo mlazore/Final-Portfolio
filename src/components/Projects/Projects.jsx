@@ -16,7 +16,7 @@ const Projects = () => {
       <h1>Portfolio</h1>
     </div>
     <div className='card-position'>
-    <Card style={{ width: '18rem' }}>
+    <Card>
   <Card.Img variant="top" src={Netflix} />
   <Card.Body>
     <Card.Title>Netflix Redesign</Card.Title>
@@ -28,19 +28,19 @@ const Projects = () => {
 
   </Card.Body>
 </Card>
-<Card style={{ width: '18rem' }}>
+<Card>
   <Card.Img variant="top" src={HopeHacks} />
   <Card.Body>
     <Card.Title>HOPEHACKS</Card.Title>
     <Card.Text>
-      This project utilized |HTML | CSS | JS | API
+      This project utilized |HTML | CSS | JS | API|
     </Card.Text>
     <a href='https://github.com/drewwoods55/HOPEhacks'target="_blank" rel="noopener noreferrer"><Button variant="primary">GitHub</Button></a>
     <a href="http://theordermob.com/"target="_blank" rel="noopener noreferrer"><Button variant="primary">Website</Button></a>
 
   </Card.Body>
 </Card>
-<Card style={{ width: '18rem' }}>
+<Card>
   <Card.Img variant="top" src={Ecomproject} />
   <Card.Body>
     <Card.Title>Ecommerce</Card.Title>
@@ -51,7 +51,7 @@ const Projects = () => {
     <a href="https://martin-ecomproject.herokuapp.com/products"target="_blank" rel="noopener noreferrer"><Button variant="primary">Website</Button></a>
   </Card.Body>
 </Card>
-<Card style={{ width: '18rem' }}>
+<Card>
   <Card.Img variant="top" src={HopeSanc} />
   <Card.Body>
     <Card.Title>Social Injustice</Card.Title>
