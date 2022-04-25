@@ -12,9 +12,9 @@ const Navbar = () => {
     <div className="n-right">
       <div className="n-list">
         <ul style={{listStyleType:'none'}}>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+         <a href='Aboutme' ><li>About Me</li></a>
+         <a href='Projects'><li>Projects</li></a>
+         <a href='Contact.jsx'><li>Contact</li></a>
         </ul>
       </div>
     </div>

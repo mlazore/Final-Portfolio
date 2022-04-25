@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   text-shadow: 0 0 3px #FF0000, 0 0 5px orange;
+  background: linear-gradient(45deg, rgb(156, 14, 156), lightblue);
+
 }
 .container.d-flex.justify-content-center.py-5{
   border-style: solid lightgray;
@@ -11,3 +13,6 @@
   background: linear-gradient(45deg, rgb(156, 14, 156), lightblue);
 }
 
+.container.my-5{
+  background: linear-gradient(45deg, rgb(156, 14, 156), lightblue);
+}
