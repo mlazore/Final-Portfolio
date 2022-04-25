@@ -1,43 +1,105 @@
-/* .skills{
-  text-align: center;
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 12%, rgba(255,89,0,1) 34%, rgba(208,46,46,1) 100%); */
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.main-heading{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px orange;
+}
+
+.skills {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 7rem;
-  font-weight: bold;
-  font-size: 30px;
+  margin-bottom: 7rem;
 }
 
-.skills h1:nth-of-type(1)
-{
-  text-shadow: 0 0 3px #FF0000, 0 0 3px orange;
-  font-weight: bold;
-}
-
-
-.container {
+.skills-grid {
   display: grid;
-  grid-gap: 20px;
-  padding: 10px;
-  margin: 30px;
-  grid-template-columns: 1fr 1fr;
-  }
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  width: 100%;
+}
 
-.infocard {
-  background-color: gray;
+.skills-title {
+  font-size: 1.2rem;
   text-align: center;
-  padding: 15px;
-  font-size: 15px;
-  width: 50%;
-  box-shadow: 10px 10px 5px black;
-  border-radius: 15px;
+  margin: 1rem 0;
+  font-weight: bold;
+  padding: 1rem;
 }
 
-.title {
-  font-family: 'Dancing Script', cursive;
-  font-size:35px;
-  margin:10px;
-  padding:10px;
+.skills-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.description {
-  font-family: 'Quicksand', sans-serif;
-  font-size:15px;
-} */
+.skills-list li p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.skills-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    max-width: 80%;
+}
+
+.skill-wrapper {
+    border-radius: 1rem;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px black;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    width: 100%;
+}
+
+.skills-title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-grid {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

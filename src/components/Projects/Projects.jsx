@@ -24,7 +24,7 @@ const Projects = () => {
       This project utilized |HTML | CSS | JS | API|
     </Card.Text>
     <a href='https://github.com/Santosisaac13690/netflix-redesign'target="_blank" rel="noopener noreferrer"><Button variant="primary">GitHub</Button></a>
-    <a href=""target="_blank" rel="noopener noreferrer"><Button variant="primary">Website</Button></a>
+    <a href="https://r2h-netflix.herokuapp.com/"target="_blank" rel="noopener noreferrer"><Button variant="primary">Website</Button></a>
 
   </Card.Body>
 </Card>
@@ -48,7 +48,7 @@ const Projects = () => {
       This project utlizized |HTML | CSS | NODE | MySQL| JS|
     </Card.Text>
     <a href='https://github.com/mlazore/ecommerceVersion2'target="_blank" rel="noopener noreferrer"><Button variant="primary">GitHub</Button></a>
-    <a href="https://martin-ecomproject.herokuapp.com/"target="_blank" rel="noopener noreferrer"><Button variant="primary">Website</Button></a>
+    <a href="https://martin-ecomproject.herokuapp.com/products"target="_blank" rel="noopener noreferrer"><Button variant="primary">Website</Button></a>
   </Card.Body>
 </Card>
 <Card style={{ width: '18rem' }}>

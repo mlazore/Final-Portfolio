@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
     
-    <div class="container my-5">
+    <div id footer class="container my-5">
       <footer class="text-center text-lg-start">
         <h1>Martin Lazore</h1>
         <div class="container d-flex justify-content-center py-5">
