@@ -22,25 +22,13 @@
 }
 
 @media (max-width: 900px) {
-  .Card {
-      grid-template-columns: repeat(1, 1fr);
+  .card-position {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 500px) {
-  .Card {
-      grid-template-columns: repeat(1, 1fr);
+  .card-position {
+    flex-direction: column;
   }
-}
-
-@media (max-width: 900px) {
-    .Card {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media (max-width: 500px) {
-    .Card {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }

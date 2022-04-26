@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import Resume from "../../Assets/Resume.pdf"
 
 const Navbar = () => {
   return (
@@ -12,10 +13,10 @@ const Navbar = () => {
     <div className="n-right">
       <div className="n-list">
         <ul style={{listStyleType:'none'}}>
-         <a href='Aboutme' ><li>About Me</li></a>
-         <a href='Projects'><li>Projects</li></a>
-         <a href='Contact.jsx'><li>Contact</li></a>
-         <a href='Contact.jsx'><li>Resume</li></a>
+         <li><link to="/"></link>About</li>
+         <li><link to="/Skills"></link>Skills</li>
+         <li><link to="/Contact"></link>Contact</li>
+         <li><a href={Resume}><li>Resume</li></a></li>
         </ul>
       </div>
     </div>
